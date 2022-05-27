@@ -67,7 +67,7 @@ describe("User Onboarding App", () => {
     describe("Checking for form validation", () => {
 
         it("validation when an input is left empty", () => {
-           cy.get("p").should("exist");
+           cy.get("p").should("exist");//needs some work still...
         })
     })
 
